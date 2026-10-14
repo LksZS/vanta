@@ -1,0 +1,24 @@
+src/App.tsx 78ms
+src/components/Approach.tsx 33ms
+src/components/Contact.tsx 50ms
+src/components/Filament.tsx 10ms
+src/components/Header.tsx 32ms
+src/components/Hero.tsx 35ms
+src/components/Manifesto.tsx 18ms
+src/components/Offerings.tsx 33ms
+src/components/Playground.tsx 55ms
+src/components/Shared.tsx 19ms
+src/components/Story.tsx 27ms
+src/components/Transformation.tsx 19ms
+src/components/Typography.tsx 10ms
+src/hooks/useSmoothScroll.ts 9ms
+src/lib/motion.ts 3ms
+src/main.tsx 2ms
+src/styles.css 251ms
+src/vite-env.d.ts 2ms (unchanged)
+scripts/generate-filament.mjs 27ms
+vite.config.ts 8ms
+eslint.config.js 4ms
+tsconfig.json 10ms
+index.html 43ms
+package.json 2ms

@@ -1,0 +1,372 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "errors": [],
+    "metrics": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "images": []
+    },
+    "stages": [
+      {
+        "id": "hero-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 1,
+        "overflow": 0
+      }
+    ],
+    "violations": [],
+    "reducedViolations": []
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "errors": [],
+    "metrics": {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "images": []
+    },
+    "stages": [
+      {
+        "id": "hero-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 1,
+        "overflow": 0
+      }
+    ],
+    "violations": [],
+    "reducedViolations": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "errors": [],
+    "metrics": {
+      "width": 768,
+      "scrollWidth": 768,
+      "images": []
+    },
+    "stages": [
+      {
+        "id": "hero-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 1,
+        "overflow": 0
+      }
+    ],
+    "violations": [],
+    "reducedViolations": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "metrics": {
+      "width": 390,
+      "scrollWidth": 390,
+      "images": []
+    },
+    "stages": [
+      {
+        "id": "hero-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 1,
+        "overflow": 0
+      }
+    ],
+    "violations": [],
+    "reducedViolations": []
+  },
+  {
+    "width": 360,
+    "height": 800,
+    "errors": [],
+    "metrics": {
+      "width": 360,
+      "scrollWidth": 360,
+      "images": []
+    },
+    "stages": [
+      {
+        "id": "hero-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 1,
+        "overflow": 0
+      }
+    ],
+    "violations": [],
+    "reducedViolations": []
+  }
+]

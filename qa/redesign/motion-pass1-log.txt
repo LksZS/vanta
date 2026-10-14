@@ -1,0 +1,8 @@
+motion @1440: p95 frame 33.4ms, LoAF 13, CLS 0.005, stuck-invisible 0, errors 0, overflow 0px
+motion @390: p95 frame 16.8ms, LoAF 0, CLS 0.002, stuck-invisible 0, errors 0, overflow 0px
+reduced @1440: p95 frame 16.8ms, LoAF 0, CLS 0, stuck-invisible 0, errors 0, overflow 0px
+reduced @390: p95 frame 16.8ms, LoAF 0, CLS 0, stuck-invisible 0, errors 0, overflow 0px
+
+PROBLEMS:
+- no-preference@1440: p95 frame 33.4ms while scrolling (target <= 17-20ms)
+Frames and report: /home/user/vanta/qa/redesign/motion-pass1

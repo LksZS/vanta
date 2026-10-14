@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "hero-continuity: scroll-controlled states reverse without reconstruction",
+    "gallery-continuity: scroll-controlled states reverse without reconstruction",
+    "product-continuity: scroll-controlled states reverse without reconstruction",
+    "Same hero DOM image lands in measured philosophy slot",
+    "Gallery selection morphs layout and propagates the selected world into the scroll scene",
+    "Rapid gallery selections settle on the last input",
+    "Gallery reset restores editorial grid",
+    "Workspace Focus mode changes panel layout",
+    "Contextual workspace overlay opens and closes",
+    "Glass dock expands; Escape closes contextual chapters",
+    "Menu focus containment, Escape and focus restoration",
+    "Existing intelligence and workflow interactions preserved",
+    "Existing signal lab interactions preserved",
+    "Validated local inquiry produces actual brief download",
+    "Breakpoint round trip has no duplicated ScrollTriggers",
+    "Reduced motion exposes static stories and disables Lenis/sticky choreography",
+    "No runtime exceptions in the complete interaction run",
+    "Coarse-pointer menu, gallery selection and dock work via touch"
+  ],
+  "errors": [],
+  "initialTriggerCount": 8,
+  "heroLanding": {
+    "dx": 0,
+    "dy": 0,
+    "dw": 0.0093994140625
+  }
+}

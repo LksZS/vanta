@@ -1,0 +1,9 @@
+motion @1440: p95 frame 33.3ms, LoAF 6, CLS 0.003, stuck-invisible 0, errors 0, overflow 0px
+motion @390: p95 frame 16.8ms, LoAF 0, CLS 0.001, stuck-invisible 0, errors 0, overflow 0px
+reduced @1440: p95 frame 16.7ms, LoAF 0, CLS 0, stuck-invisible 0, errors 0, overflow 0px
+reduced @390: p95 frame 16.7ms, LoAF 0, CLS 0, stuck-invisible 0, errors 0, overflow 0px
+
+PROBLEMS:
+- no-preference@1440: p95 frame 33.3ms while scrolling (target <= 17-20ms)
+- no-preference@1440: long animation frame of 105ms
+Frames and report: /home/user/vanta/qa/motion-final

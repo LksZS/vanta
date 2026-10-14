@@ -1,0 +1,112 @@
+[
+  {
+    "width": 1440,
+    "docWidth": 1440,
+    "sections": 9,
+    "height": 900,
+    "errors": [],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".type-before"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d8d82, background color: #eae9e3, font size: 144.7pt (192.96px), font weight: normal). Expected contrast ratio of 3:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "docWidth": 1280,
+    "sections": 9,
+    "height": 800,
+    "errors": [],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".type-before"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d8d82, background color: #eae9e3, font size: 128.6pt (171.52px), font weight: normal). Expected contrast ratio of 3:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "docWidth": 768,
+    "sections": 9,
+    "height": 1024,
+    "errors": [],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".type-before"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d8d82, background color: #eae9e3, font size: 86.4pt (115.2px), font weight: normal). Expected contrast ratio of 3:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "docWidth": 390,
+    "sections": 9,
+    "height": 844,
+    "errors": [],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".type-before"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d8d82, background color: #eae9e3, font size: 58.5pt (78px), font weight: normal). Expected contrast ratio of 3:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "docWidth": 360,
+    "sections": 9,
+    "height": 800,
+    "errors": [],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".type-before"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d8d82, background color: #eae9e3, font size: 54.0pt (72px), font weight: normal). Expected contrast ratio of 3:1"
+          }
+        ]
+      }
+    ]
+  }
+]

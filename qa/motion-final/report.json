@@ -1,0 +1,83 @@
+{
+  "url": "http://localhost:4173",
+  "generatedAt": "2026-10-13T19:46:51.556Z",
+  "note": "Headless lab numbers; use them to compare before/after, not as field data.",
+  "runs": [
+    {
+      "reducedMotion": "no-preference",
+      "width": 1440,
+      "errors": [],
+      "horizontalOverflowPx": 0,
+      "overflowCulprits": [],
+      "stuckInvisible": [],
+      "contentNeverInViewport": 2,
+      "scrollHeight": 11042,
+      "frameP50ms": 16.7,
+      "frameP95ms": 33.3,
+      "framesOver33ms": 26,
+      "frameCount": 718,
+      "longAnimationFrames": 6,
+      "worstLoafMs": 105,
+      "cls": 0.003,
+      "layoutShifts": []
+    },
+    {
+      "reducedMotion": "no-preference",
+      "width": 390,
+      "errors": [],
+      "horizontalOverflowPx": 0,
+      "overflowCulprits": [],
+      "stuckInvisible": [],
+      "contentNeverInViewport": 5,
+      "scrollHeight": 9707,
+      "frameP50ms": 16.7,
+      "frameP95ms": 16.8,
+      "framesOver33ms": 1,
+      "frameCount": 777,
+      "longAnimationFrames": 0,
+      "worstLoafMs": 0,
+      "cls": 0.001,
+      "layoutShifts": []
+    },
+    {
+      "reducedMotion": "reduce",
+      "width": 1440,
+      "errors": [],
+      "horizontalOverflowPx": 0,
+      "overflowCulprits": [],
+      "stuckInvisible": [],
+      "contentNeverInViewport": 2,
+      "scrollHeight": 10306,
+      "frameP50ms": 16.7,
+      "frameP95ms": 16.7,
+      "framesOver33ms": 0,
+      "frameCount": 655,
+      "longAnimationFrames": 0,
+      "worstLoafMs": 0,
+      "cls": 0,
+      "layoutShifts": []
+    },
+    {
+      "reducedMotion": "reduce",
+      "width": 390,
+      "errors": [],
+      "horizontalOverflowPx": 0,
+      "overflowCulprits": [],
+      "stuckInvisible": [],
+      "contentNeverInViewport": 5,
+      "scrollHeight": 9827,
+      "frameP50ms": 16.7,
+      "frameP95ms": 16.7,
+      "framesOver33ms": 0,
+      "frameCount": 599,
+      "longAnimationFrames": 0,
+      "worstLoafMs": 0,
+      "cls": 0,
+      "layoutShifts": []
+    }
+  ],
+  "problems": [
+    "no-preference@1440: p95 frame 33.3ms while scrolling (target <= 17-20ms)",
+    "no-preference@1440: long animation frame of 105ms"
+  ]
+}

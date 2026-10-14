@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "Pinned story range equals measured horizontal travel",
+    "Story pinned and track correct at 0%",
+    "Story pinned and track correct at 50%",
+    "Story pinned and track correct at 100%",
+    "Story unpins naturally",
+    "Intelligence mode changes selected state, visual and explanation",
+    "Systems workflow runs and resets",
+    "Interface changes layout",
+    "Interactive typography changes on click",
+    "Playground grid to orbit layout transition",
+    "Intensity and signal controls respond",
+    "Fine-pointer spotlight responds locally",
+    "Valid inquiry creates real downloadable project brief",
+    "Resize to mobile removes story pin",
+    "Menu is keyboard operable, contains focus, Escape restores trigger focus",
+    "Mobile menu anchor navigates and dismisses dialog",
+    "Breakpoint round trip creates no duplicate ScrollTriggers",
+    "Reduced motion removes Lenis/pin and preserves chapters",
+    "No browser exceptions during full interaction run"
+  ],
+  "errors": [],
+  "initial": {
+    "count": 9,
+    "start": 1840,
+    "end": 3384,
+    "travel": 1544
+  }
+}

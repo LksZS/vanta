@@ -1,0 +1,30 @@
+src/App.tsx 98ms
+src/components/Approach.tsx 41ms (unchanged)
+src/components/Contact.tsx 41ms
+src/components/Filament.tsx 17ms (unchanged)
+src/components/Header.tsx 31ms (unchanged)
+src/components/Hero.tsx 45ms (unchanged)
+src/components/Manifesto.tsx 15ms (unchanged)
+src/components/Offerings.tsx 33ms
+src/components/Playground.tsx 63ms (unchanged)
+src/components/Shared.tsx 12ms
+src/components/Story.tsx 44ms (unchanged)
+src/components/Transformation.tsx 12ms (unchanged)
+src/components/Typography.tsx 9ms (unchanged)
+src/experience/CinematicJourney.tsx 23ms
+src/experience/data.ts 7ms
+src/experience/experience.css 325ms
+src/experience/GalleryBridge.tsx 16ms
+src/experience/GalleryExperience.tsx 28ms
+src/experience/Glass.tsx 31ms
+src/experience/LiquidNavigation.tsx 23ms
+src/experience/ProductJourney.tsx 46ms
+src/hooks/useCinematicJourney.ts 20ms
+src/hooks/useSmoothScroll.ts 7ms (unchanged)
+src/lib/motion.ts 3ms (unchanged)
+src/main.tsx 2ms (unchanged)
+src/styles.css 187ms
+src/vite-env.d.ts 3ms (unchanged)
+qa/redesign-inspect.mjs 32ms
+qa/redesign-interactions.mjs 44ms
+qa/redesign-validate.mjs 17ms

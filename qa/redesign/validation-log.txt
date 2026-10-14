@@ -1,0 +1,37 @@
+[
+  {
+    "width": 1440,
+    "errors": [],
+    "overflow": 0,
+    "violations": [],
+    "reduced": []
+  },
+  {
+    "width": 1280,
+    "errors": [],
+    "overflow": 0,
+    "violations": [],
+    "reduced": []
+  },
+  {
+    "width": 768,
+    "errors": [],
+    "overflow": 0,
+    "violations": [],
+    "reduced": []
+  },
+  {
+    "width": 390,
+    "errors": [],
+    "overflow": 0,
+    "violations": [],
+    "reduced": []
+  },
+  {
+    "width": 360,
+    "errors": [],
+    "overflow": 0,
+    "violations": [],
+    "reduced": []
+  }
+]

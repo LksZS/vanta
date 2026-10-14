@@ -1,0 +1,930 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "errors": [],
+    "metrics": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "images": []
+    },
+    "stages": [
+      {
+        "id": "hero-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 1,
+        "overflow": 0
+      }
+    ],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".arrival-bottom > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #60706d, background color: #101719, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".arrival-bottom > span:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #60706d, background color: #101719, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(1) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-main > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #617469, background color: #d5dfcc, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(5) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "reducedViolations": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".product-stage-bottom > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #809388, background color: #f0f0e9, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".product-stage-bottom > span:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #809388, background color: #f0f0e9, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(1) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-main > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #617469, background color: #d5dfcc, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(5) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "errors": [],
+    "metrics": {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "images": []
+    },
+    "stages": [
+      {
+        "id": "hero-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 1,
+        "overflow": 0
+      }
+    ],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".arrival-bottom > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #60706d, background color: #101719, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".arrival-bottom > span:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #60706d, background color: #101719, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(1) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-main > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #617469, background color: #d5dfcc, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(5) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "reducedViolations": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".product-stage-bottom > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #809388, background color: #f0f0e9, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".product-stage-bottom > span:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #809388, background color: #f0f0e9, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(1) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-main > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #617469, background color: #d5dfcc, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(5) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "errors": [],
+    "metrics": {
+      "width": 768,
+      "scrollWidth": 768,
+      "images": []
+    },
+    "stages": [
+      {
+        "id": "hero-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 1,
+        "overflow": 0
+      }
+    ],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".arrival-statement > div[aria-hidden=\"true\"]:nth-child(1) > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".arrival-statement > div[aria-hidden=\"true\"]:nth-child(1) > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(1) > div[aria-hidden=\"true\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".arrival-statement > div[aria-hidden=\"true\"]:nth-child(2) > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(2) > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(3) > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(3) > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(3) > div[aria-hidden=\"true\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(4) > em:nth-child(2) > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #b1b9b1, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(4) > em:nth-child(2) > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #b1b9b1, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "em:nth-child(2) > div[aria-hidden=\"true\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #b1b9b1, background color: #f0f0e9, font size: 40.3pt (53.76px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".arrival-bottom > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #60706d, background color: #101719, font size: 5.3pt (7px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".arrival-bottom > span:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #60706d, background color: #101719, font size: 5.3pt (7px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(1) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-main > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #617469, background color: #d5dfcc, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(5) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "reducedViolations": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".product-stage-bottom > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #809388, background color: #f0f0e9, font size: 5.3pt (7px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".product-stage-bottom > span:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #809388, background color: #f0f0e9, font size: 5.3pt (7px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(1) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-main > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #617469, background color: #d5dfcc, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(5) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "metrics": {
+      "width": 390,
+      "scrollWidth": 390,
+      "images": []
+    },
+    "stages": [
+      {
+        "id": "hero-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 1,
+        "overflow": 0
+      }
+    ],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".arrival-statement > div[aria-hidden=\"true\"]:nth-child(1) > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".arrival-statement > div[aria-hidden=\"true\"]:nth-child(1) > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".arrival-statement > div[aria-hidden=\"true\"]:nth-child(2) > div[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(3) > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(3) > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(4) > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(4) > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(4) > div[aria-hidden=\"true\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(5) > em > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #b1b9b1, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(5) > em > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #b1b9b1, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "em > div[aria-hidden=\"true\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #b1b9b1, background color: #f0f0e9, font size: 29.5pt (39.39px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".arrival-bottom > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #60706d, background color: #101719, font size: 5.3pt (7px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".arrival-bottom > span:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #60706d, background color: #101719, font size: 5.3pt (7px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(1) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-main > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #617469, background color: #d5dfcc, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(5) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "reducedViolations": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".product-stage-bottom > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #809388, background color: #f0f0e9, font size: 4.5pt (6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".product-stage-bottom > span:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #809388, background color: #f0f0e9, font size: 4.5pt (6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(1) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-main > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #617469, background color: #d5dfcc, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(5) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "height": 800,
+    "errors": [],
+    "metrics": {
+      "width": 360,
+      "scrollWidth": 360,
+      "images": []
+    },
+    "stages": [
+      {
+        "id": "hero-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "hero-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "gallery-continuity",
+        "progress": 1,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.25,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.5,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 0.8,
+        "overflow": 0
+      },
+      {
+        "id": "product-continuity",
+        "progress": 1,
+        "overflow": 0
+      }
+    ],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".arrival-statement > div[aria-hidden=\"true\"]:nth-child(1) > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".arrival-statement > div[aria-hidden=\"true\"]:nth-child(1) > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".arrival-statement > div[aria-hidden=\"true\"]:nth-child(2) > div[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(3) > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(3) > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(4) > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(4) > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(4) > div[aria-hidden=\"true\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #8d9292, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(5) > em > div[aria-hidden=\"true\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #b1b9b1, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "div[aria-hidden=\"true\"]:nth-child(5) > em > div[aria-hidden=\"true\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #b1b9b1, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              "em > div[aria-hidden=\"true\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #b1b9b1, background color: #f0f0e9, font size: 27.3pt (36.36px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".arrival-bottom > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #60706d, background color: #101719, font size: 5.3pt (7px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".arrival-bottom > span:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.48 (foreground color: #60706d, background color: #101719, font size: 5.3pt (7px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(1) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-main > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #617469, background color: #d5dfcc, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(5) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "reducedViolations": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".product-stage-bottom > span:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #809388, background color: #f0f0e9, font size: 4.5pt (6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".product-stage-bottom > span:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #809388, background color: #f0f0e9, font size: 4.5pt (6px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(1) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-main > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #617469, background color: #d5dfcc, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".flow-node:nth-child(5) > span"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #617469, background color: #e5e8df, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+
+> vanta-experience@2.0.0 qa:motion
+> node scripts/vendor/motion-audit.mjs http://localhost:4173 --out qa/redesign/motion-final --widths 1440,390 --steps 14
+
+motion @1440: p95 frame 49.9ms, LoAF 17, CLS 0.005, stuck-invisible 0, errors 0, overflow 0px
+motion @390: p95 frame 16.8ms, LoAF 0, CLS 0.002, stuck-invisible 0, errors 0, overflow 0px
+reduced @1440: p95 frame 16.8ms, LoAF 0, CLS 0, stuck-invisible 0, errors 0, overflow 0px
+reduced @390: p95 frame 16.8ms, LoAF 0, CLS 0, stuck-invisible 0, errors 0, overflow 0px
+
+PROBLEMS:
+- no-preference@1440: p95 frame 49.9ms while scrolling (target <= 17-20ms)
+Frames and report: /home/user/vanta/qa/redesign/motion-final

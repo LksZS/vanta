@@ -1,0 +1,10 @@
+import {chromium} from 'playwright';
+import fs from 'node:fs/promises';
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:900}});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://localhost:5173');await page.waitForTimeout(1700);await page.screenshot({path:'qa/desktop-hero.png'});
+await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(500);await page.screenshot({path:'qa/desktop-full.png',fullPage:true});
+await page.setViewportSize({width:390,height:844});await page.emulateMedia({reducedMotion:'no-preference'});await page.reload();await page.waitForTimeout(1700);await page.screenshot({path:'qa/mobile-hero.png'});
+await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(500);await page.screenshot({path:'qa/mobile-full.png',fullPage:true});
+console.log({errors});await fs.writeFile('qa/console.json',JSON.stringify(errors));await browser.close();

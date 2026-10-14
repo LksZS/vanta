@@ -1,0 +1,108 @@
+{
+  "url": "http://localhost:5173",
+  "generatedAt": "2026-10-13T19:41:43.824Z",
+  "note": "Headless lab numbers; use them to compare before/after, not as field data.",
+  "runs": [
+    {
+      "reducedMotion": "no-preference",
+      "width": 1440,
+      "errors": [],
+      "horizontalOverflowPx": 0,
+      "overflowCulprits": [],
+      "stuckInvisible": [],
+      "contentNeverInViewport": 2,
+      "scrollHeight": 11034,
+      "frameP50ms": 16.7,
+      "frameP95ms": 33.3,
+      "framesOver33ms": 29,
+      "frameCount": 705,
+      "longAnimationFrames": 11,
+      "worstLoafMs": 65,
+      "cls": 0.009,
+      "layoutShifts": [
+        {
+          "value": 0.007,
+          "sources": [
+            "#text",
+            "#text",
+            "#text",
+            "<nav.desktop-nav>",
+            "<a.header-contact>"
+          ]
+        }
+      ]
+    },
+    {
+      "reducedMotion": "no-preference",
+      "width": 390,
+      "errors": [],
+      "horizontalOverflowPx": 0,
+      "overflowCulprits": [],
+      "stuckInvisible": [],
+      "contentNeverInViewport": 5,
+      "scrollHeight": 9750,
+      "frameP50ms": 16.7,
+      "frameP95ms": 16.7,
+      "framesOver33ms": 1,
+      "frameCount": 736,
+      "longAnimationFrames": 0,
+      "worstLoafMs": 0,
+      "cls": 0.003,
+      "layoutShifts": []
+    },
+    {
+      "reducedMotion": "reduce",
+      "width": 1440,
+      "errors": [],
+      "horizontalOverflowPx": 0,
+      "overflowCulprits": [],
+      "stuckInvisible": [],
+      "contentNeverInViewport": 2,
+      "scrollHeight": 10298,
+      "frameP50ms": 16.7,
+      "frameP95ms": 16.7,
+      "framesOver33ms": 2,
+      "frameCount": 710,
+      "longAnimationFrames": 0,
+      "worstLoafMs": 0,
+      "cls": 0.028,
+      "layoutShifts": [
+        {
+          "value": 0.024,
+          "sources": [
+            "<body>"
+          ]
+        }
+      ]
+    },
+    {
+      "reducedMotion": "reduce",
+      "width": 390,
+      "errors": [],
+      "horizontalOverflowPx": 0,
+      "overflowCulprits": [],
+      "stuckInvisible": [],
+      "contentNeverInViewport": 5,
+      "scrollHeight": 9870,
+      "frameP50ms": 16.7,
+      "frameP95ms": 16.7,
+      "framesOver33ms": 0,
+      "frameCount": 605,
+      "longAnimationFrames": 0,
+      "worstLoafMs": 0,
+      "cls": 0.041,
+      "layoutShifts": [
+        {
+          "value": 0.04,
+          "sources": [
+            "<body>",
+            "<div.hero-art>"
+          ]
+        }
+      ]
+    }
+  ],
+  "problems": [
+    "no-preference@1440: p95 frame 33.3ms while scrolling (target <= 17-20ms)"
+  ]
+}

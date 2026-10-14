@@ -1,0 +1,12 @@
+import {chromium} from 'playwright';import AxeBuilder from '@axe-core/playwright';import assert from 'node:assert/strict';import fs from 'node:fs/promises';
+const browser=await chromium.launch();const context=await browser.newContext({viewport:{width:390,height:844},hasTouch:true,isMobile:true});const page=await context.newPage();await page.goto('http://localhost:5173');await page.waitForTimeout(1400);
+await page.getByRole('button',{name:'Open menu'}).tap();await page.getByRole('navigation',{name:'Expanded navigation'}).getByRole('link',{name:/Capabilities/}).tap();await page.waitForTimeout(1200);
+await page.getByRole('button',{name:'Create',exact:true}).tap();assert.equal(await page.getByRole('button',{name:'Create',exact:true}).getAttribute('aria-pressed'),'true');
+await page.getByRole('button',{name:'Reconfigure to orbit'}).tap();assert(await page.locator('.lab-particles').evaluate(el=>el.classList.contains('orbit-layout')));
+await page.getByRole('button',{name:'Activate the signal'}).tap();assert.match(await page.locator('.lab-meta').textContent(),/ACTIVE/);
+await page.getByRole('button',{name:'Prepare your project brief'}).tap();assert.equal(await page.locator('.form-success').count(),0);assert(await page.locator('[name=name]').evaluate(el=>!el.validity.valid));
+await page.setViewportSize({width:1024,height:768});await page.waitForTimeout(400);assert.equal(await page.locator('.pin-spacer').count(),0);
+const context2=await browser.newContext({viewport:{width:1440,height:900}});const p=await context2.newPage();await p.goto('http://localhost:5173');await p.waitForTimeout(1200);
+const range=await p.evaluate(async()=>{const {ScrollTrigger}=await import('/src/lib/motion.ts');const t=ScrollTrigger.getAll().find(t=>t.trigger?.classList.contains('transformation'));return {start:t.start,end:t.end}});const contrast=[];
+for(const progress of [0,.25,.5,.535,.545,.65,1]){await p.evaluate(y=>scrollTo(0,y),range.start+(range.end-range.start)*progress);await p.waitForTimeout(120);const result=await new AxeBuilder({page:p}).include('.transformation').withRules(['color-contrast']).analyze();contrast.push({progress,violations:result.violations.map(v=>v.nodes.map(n=>n.target))});}
+const report={touchControls:'pass',invalidFormBlocked:'pass',landscapeTouchPinDisabled:'pass',contrast};console.log(report);await fs.writeFile('qa/touch-and-contrast.json',JSON.stringify(report,null,2));await browser.close();

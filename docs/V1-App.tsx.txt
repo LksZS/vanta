@@ -1,0 +1,46 @@
+import { useRef } from "react";
+import { MotionConfig } from "motion/react";
+import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
+import { Approach } from "./components/Approach";
+import { Story } from "./components/Story";
+import { Typography } from "./components/Typography";
+import { Offerings } from "./components/Offerings";
+import { Transformation } from "./components/Transformation";
+import { Playground } from "./components/Playground";
+import { Manifesto } from "./components/Manifesto";
+import { Contact } from "./components/Contact";
+import { useSmoothScroll } from "./hooks/useSmoothScroll";
+import { gsap, useGSAP } from "./lib/motion";
+export default function App() {
+  useSmoothScroll();
+  const progress = useRef<HTMLDivElement>(null);
+  useGSAP(() => {
+    gsap.fromTo(
+      progress.current,
+      { scaleX: 0 },
+      {
+        scaleX: 1,
+        ease: "none",
+        scrollTrigger: { start: 0, end: "max", scrub: true },
+      },
+    );
+  });
+  return (
+    <MotionConfig reducedMotion="user">
+      <div ref={progress} className="reading-progress" aria-hidden="true" />
+      <Header />
+      <main id="main">
+        <Hero />
+        <Approach />
+        <Story />
+        <Typography />
+        <Offerings />
+        <Transformation />
+        <Playground />
+        <Manifesto />
+        <Contact />
+      </main>
+    </MotionConfig>
+  );
+}
